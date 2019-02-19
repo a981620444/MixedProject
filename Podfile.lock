@@ -1,0 +1,81 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SQLiteRepairKit (1.1.6):
+    - WCDBOptimizedSQLCipher (~> 1.1.0)
+  - TTTAttributedLabel (2.0.0)
+  - WCDB (1.0.7.4):
+    - SQLiteRepairKit (~> 1.1.0)
+    - WCDBOptimizedSQLCipher (~> 1.1.0)
+  - WCDBOptimizedSQLCipher (1.1.6)
+  - YZDisplayViewController (1.0.6)
+  - ZFPlayer (3.1.6):
+    - ZFPlayer/Core (= 3.1.6)
+  - ZFPlayer/AVPlayer (3.1.6):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.1.6):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.1.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.0.15.1)
+  - MJRefresh
+  - SDWebImage (~> 3.8)
+  - TTTAttributedLabel (~> 2.0.0)
+  - WCDB
+  - YZDisplayViewController (~> 1.0.6)
+  - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
+  - ZFPlayer/ControlView (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SQLiteRepairKit
+    - TTTAttributedLabel
+    - WCDB
+    - WCDBOptimizedSQLCipher
+    - YZDisplayViewController
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SQLiteRepairKit: 45847b47b152e38437f815648335f723a6d7eda2
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  WCDB: 4af4a7f945d8030a22199d59fe634a8f9a3c898e
+  WCDBOptimizedSQLCipher: 465ba813d88341129b89a11d348f988cc367f53e
+  YZDisplayViewController: 621f737a9aa3dfbc95a901e89e5e7c4b2ea6ef79
+  ZFPlayer: bac23889b25e83fd3644ec40c8e7e9622e331ecb
+
+PODFILE CHECKSUM: dcab9bc618e1f8b7ce132fa75c591fabf05017f0
+
+COCOAPODS: 1.5.3

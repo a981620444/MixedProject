@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  MixedDemo
+//
+//  Created by simple on 2019/1/20.
+//  Copyright © 2019年 MixedDemoTest. All rights reserved.
+//
+
+#import "ConstSet.h"
+#import "HttpTool.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define IS_IPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define kHeight_NavContentBar 44.0f
+#define kHeight_StatusBar (IS_IPHONE_X==YES)?44.0f: 20.0f
+#define kHeight_NavBar (IS_IPHONE_X==YES)?88.0f: 64.0f
+#define kHeight_TabBar (IS_IPHONE_X==YES)?83.0f: 49.0
+
+/****进入置顶通知****/
+#define kHomeGoTopNotification               @"Home_Go_Top"
+/****离开置顶通知****/
+#define kHomeLeaveTopNotification            @"Home_Leave_Top"
+#define kChangeVideoNotification             @"changeVideoPlay"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
